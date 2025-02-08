@@ -1,0 +1,15 @@
+.welcome-bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	background: url(https://cf.bstatic.com/xdata/images/region/1020x340/51749.jpg?k=96ba3f37470f60f9ffd6c8e0736d851e50ac3dc211560540caa6caa46435e318&o=)no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 330px;
+}
+
+.welcome-text {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
