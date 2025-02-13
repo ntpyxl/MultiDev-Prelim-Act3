@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Shadows+Into+Light&display=swap');
+
 .welcome-bg-image {
     display: flex;
     justify-content: center;
@@ -10,6 +12,35 @@
 }
 
 .welcome-text {
+    font-family: "Caveat Brush", serif;
+    font-weight: 400;
+    font-size: 70px;
     color: white;
     text-shadow: 2px 2px 5px black;
 }
+
+.section-title {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.card-title {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.btn {
+    transition: transform 0.15s ease-in-out;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
